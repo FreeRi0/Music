@@ -1,0 +1,24 @@
+@import './base.css';
+
+/*Страницы*/
+
+@import './login.css';
+@import './register.css';
+@import './reset.css';
+@import './user.css';
+@import './homepage.css';
+@import './chart.css';
+@import './artist.css';
+@import './english.css';
+
+
+/*Компоненты*/
+
+@import './player.css';
+
+
+/*Адаптив*/
+
+@import './media.css';
+
+

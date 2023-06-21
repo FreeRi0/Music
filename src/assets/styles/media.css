@@ -1,0 +1,574 @@
+@media (max-width: 1024px) {
+  .logo-pulse {
+    font-size: 32px;
+  }
+
+  .track-photo {
+    width: 235px;
+  }
+
+  .track-name {
+    font-size: 32px;
+  }
+
+  .tracks-title {
+    font-size: 32px;
+  }
+
+  .home-category-box {
+    width: 100px;
+    height: 30px;
+    background: #1c1147;
+    border-radius: 64px;
+    margin-left: 10px;
+    padding: 7px;
+  }
+
+  .home-category-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ededed;
+    text-align: center;
+  }
+
+  .img__track_next {
+    width: 50px;
+    height: 50px;
+  }
+
+  .track__item .song {
+    font-size: 14px;
+  }
+
+  .chart-and-authors {
+    gap: 25px;
+  }
+
+  .authors-line {
+    display: block;
+    width: 100%;
+  }
+
+  .authors-icon-text {
+    margin-top: 20px;
+  }
+
+  .authers-box {
+    width: max-content;
+    padding: 26px;
+  }
+
+  .authors-icon {
+    height: 150px;
+    width: 150px;
+  }
+
+  .authers-list {
+    width: 100%;
+    gap: 0px;
+    margin-top: 30px;
+  }
+
+  .chart-box {
+    width: max-content;
+    padding: 26px;
+  }
+
+  .chart-track-list{
+    margin-top: 40px;
+    min-height: auto;
+  }
+
+  .registration {
+    padding: 100px 55px 100px 35px;
+  }
+
+  .logIn {
+    padding: 100px 55px 100px 35px;
+  }
+
+  .registration__title {
+    font-size: 36px;
+  }
+
+  .logIn__title {
+    font-size: 36px;
+  }
+
+  .registration__desc {
+    font-size: 20px;
+  }
+
+  .logIn__desc {
+    font-size: 20px;
+  }
+
+  .reg-form {
+    width: 365px;
+    min-height: 565px;
+  }
+
+  .login {
+    width: 365px;
+    height: 400px;
+  }
+
+  .show-icon {
+    position: absolute;
+    top: 194px;
+    left: 275px;
+  }
+
+  .hide-icon {
+    position: absolute;
+    top: 194px;
+    left: 275px;
+  }
+
+  .show-icon_rep {
+    position: absolute;
+    top: 270px;
+    left: 277px;
+  }
+
+  .hide-icon_rep {
+    position: absolute;
+    left: 277px;
+    top: 270px;
+  }
+
+  .show-icon_log {
+    position: absolute;
+    top: 163px;
+    left: 248px;
+    z-index: 11;
+    cursor: pointer;
+  }
+
+  .hide-icon_log {
+    position: absolute;
+    left: 248px;
+    top: 163px;
+    z-index: 11;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-page {
+    flex-direction: column;
+  }
+  .tracks {
+    padding: 30px 0px 0px 60px;
+  }
+
+  .img__track_next {
+    width: 60px;
+    height: 60px;
+  }
+
+  .track__item .song {
+    font-size: 16px;
+  }
+  .song__text_next {
+    display: none;
+  }
+  .img__track_clone {
+    display: none;
+  }
+  .img__track {
+    display: none;
+  }
+  .tegs__wrapper {
+    padding-top: 19px;
+  }
+  .chart-box {
+    width: 100%;
+  }
+
+  .chart-and-authors {
+    padding: 0px;
+    width: max-content;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 35px;
+  }
+
+  .user-photo-big {
+    width: 70%;
+  }
+
+  .playlist {
+    width: 100%;
+    padding: 30px 15px 0px 15px;
+  }
+
+  .playlist__search {
+    width: 100%;
+  }
+
+  .search__icon {
+    left: 20px;
+  }
+
+  .registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+  }
+
+  .logIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+  }
+
+  .registration__text {
+    margin-bottom: 35px;
+  }
+
+  .logIn__text {
+    margin-bottom: 35px;
+  }
+
+  .forgot {
+    width: 365px;
+    height: 265px;
+  }
+
+  .reset__title {
+    font-size: 36px;
+  }
+
+  .volume {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .control {
+    padding: 0;
+  }
+  .tracks {
+    padding: 25px 0px 0px 15px;
+  }
+  .track__item .song {
+    font-size: 14px;
+  }
+  .track-name {
+    font-size: 28px;
+  }
+  .track-autor {
+    font-size: 18px;
+  }
+  .tracks-title {
+    font-size: 28px;
+  }
+
+  .home-category-box {
+    width: 72px;
+  }
+
+  .home-category-text {
+    font-size: 14px;
+  }
+  .track__item .song img {
+    margin-right: 10px;
+  }
+
+  .img__track_next {
+    width: 60px;
+    height: 60px;
+  }
+  .song-title {
+    font-size: 16px;
+    text-transform: none;
+  }
+  .song-author {
+    font-size: 12px;
+    text-transform: none;
+  }
+  .play svg {
+    width: 45px;
+    height: 45px;
+  }
+  .pause svg {
+    width: 45px;
+    height: 45px;
+  }
+  .prev svg {
+    width: 18px;
+    height: 18px;
+  }
+  .next svg {
+    width: 18px;
+    height: 18px;
+  }
+  .next .prev {
+    margin: 0px 10px;
+    padding: 0px 10px;
+  }
+
+  .tegs__wrapper {
+    padding-top: 19px;
+  }
+
+  .tegs__item {
+    padding: 5px;
+    width: 125px;
+    font-size: 16px;
+  }
+
+  .tegs__item_2 {
+    width: 125px;
+    height: 38px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  .chart-and-authors {
+    display: block;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .chart-box {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 30px 0px;
+  }
+
+
+  .chart-h2{
+    text-align: center;
+  }
+  .chart-track-list {
+    margin-top: 35px;
+  }
+
+  .authers-box {
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .authors-line {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .authors-icon {
+    height: 144px;
+    width: 144px;
+  }
+
+  .authers-list {
+    gap: 10px;
+    align-items: center;
+  }
+
+  .authors-h2{
+  text-align: center;
+  }
+
+  .authors-text{
+    width: 144px;
+  }
+
+  .authors-period-line {
+    display: block;
+  }
+
+  .track-item {
+    gap: 0px;
+  }
+
+  .track-item-photo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .track-item-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .track-item-title {
+    font-size: 18px;
+  }
+
+  .chart-category-box {
+    padding: 0px 12px 4px;
+  }
+
+  .chart-category-text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .playlist__title {
+    font-size: 22px;
+  }
+
+  .registration__title {
+    font-size: 24px;
+  }
+
+  .logIn__title {
+    font-size: 24px;
+  }
+
+  .registration__desc {
+    font-size: 16px;
+  }
+
+  .logIn__desc {
+    font-size: 16px;
+  }
+
+  .reset__title {
+    font-size: 24px;
+  }
+
+  .btn__reset {
+    font-size: 16px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 376px) {
+  .tracks {
+    padding: 25px 5px 0px 5px;
+  }
+  .track-photo {
+    width: 200px;
+  }
+  .track__item .song {
+    font-size: 14px;
+  }
+  .track-name {
+    font-size: 24px;
+  }
+  .track-autor {
+    font-size: 16px;
+  }
+  .tracks-title {
+    font-size: 24px;
+  }
+  .img__track_next {
+    width: 40px;
+    height: 40px;
+  }
+  .home-category-box {
+    width: 66px;
+  }
+  .home-category-text {
+    font-size: 12px;
+  }
+  .song-title {
+    font-size: 12px;
+    text-transform: none;
+  }
+  .song-author {
+    font-size: 10px;
+    text-transform: none;
+  }
+  .next,
+  .prev {
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  .like svg {
+    width: 15px;
+  }
+  .settings svg {
+    width: 16px;
+  }
+  .tegs__item {
+    padding: 5px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .tegs__item_2 {
+    width: 100px;
+    height: 38px;
+    padding: 12px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  .wrapper {
+    padding: 0px 10px;
+  }
+  .reg-form {
+    width: 100%;
+  }
+
+  .login {
+    width: 100%;
+  }
+
+  .policy__text {
+    font-size: 12px;
+  }
+
+  .rem_and_forget {
+    font-size: 12px;
+  }
+
+  .btn__reg {
+    font-size: 18px;
+  }
+
+  .show-icon {
+    position: absolute;
+    top: 195px;
+    left: 250px;
+  }
+
+  .hide-icon {
+    position: absolute;
+    top: 195px;
+    left: 250px;
+  }
+
+  .show-icon_rep {
+    position: absolute;
+    top: 272px;
+    left: 250px;
+  }
+
+  .hide-icon_rep {
+    position: absolute;
+    left: 250px;
+    top: 272px;
+  }
+
+  .forgot {
+    width: 100%;
+  }
+
+  .chart-and-authors{
+  padding-top: 10px;
+  }
+
+  .authors-icon{
+  width: 116px;
+  height: 116px;
+  }
+
+  .authors-text{
+  width: 116px;
+  font-size: 14px;
+  }
+}
